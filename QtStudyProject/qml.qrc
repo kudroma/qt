@@ -1,5 +1,14 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
+        <file>MyButton.qml</file>
+        <file>function.js</file>
+        <file>MyModule/GreenRectangle.qml</file>
+        <file>MyModule/RedRectangle.qml</file>
+        <file>MyModule/BlackRectangle.qml</file>
+        <file>MyModule/ColorsList.js</file>
+        <file>MyModule/RedRectangle12.qml</file>
+        <file>MyModule/qmldir</file>
+        <file>MyModule/mymodule.qmltypes</file>
     </qresource>
 </RCC>

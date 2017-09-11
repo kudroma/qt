@@ -196,6 +196,7 @@ Makefile: ../QtStudyProject/QtStudyProject.pro C:/Qt/5.8/mingw53_32/mkspecs/win3
 		C:/Qt/5.8/mingw53_32/mkspecs/features/qt_config.prf \
 		C:/Qt/5.8/mingw53_32/mkspecs/win32-g++/qmake.conf \
 		C:/Qt/5.8/mingw53_32/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		C:/Qt/5.8/mingw53_32/mkspecs/features/exclusive_builds.prf \
 		C:/Qt/5.8/mingw53_32/mkspecs/features/toolchain.prf \
 		C:/Qt/5.8/mingw53_32/mkspecs/features/default_pre.prf \
@@ -203,6 +204,9 @@ Makefile: ../QtStudyProject/QtStudyProject.pro C:/Qt/5.8/mingw53_32/mkspecs/win3
 		C:/Qt/5.8/mingw53_32/mkspecs/features/resolve_config.prf \
 		C:/Qt/5.8/mingw53_32/mkspecs/features/exclusive_builds_post.prf \
 		C:/Qt/5.8/mingw53_32/mkspecs/features/default_post.prf \
+		C:/Qt/5.8/mingw53_32/mkspecs/features/qmltestcase.prf \
+		C:/Qt/5.8/mingw53_32/mkspecs/features/resolve_target.prf \
+		C:/Qt/5.8/mingw53_32/mkspecs/features/testcase.prf \
 		C:/Qt/5.8/mingw53_32/mkspecs/features/qml_debug.prf \
 		C:/Qt/5.8/mingw53_32/mkspecs/features/win32/rtti.prf \
 		C:/Qt/5.8/mingw53_32/mkspecs/features/precompile_header.prf \
@@ -210,20 +214,24 @@ Makefile: ../QtStudyProject/QtStudyProject.pro C:/Qt/5.8/mingw53_32/mkspecs/win3
 		C:/Qt/5.8/mingw53_32/mkspecs/features/qt.prf \
 		C:/Qt/5.8/mingw53_32/mkspecs/features/resources.prf \
 		C:/Qt/5.8/mingw53_32/mkspecs/features/moc.prf \
+		C:/Qt/5.8/mingw53_32/mkspecs/features/testlib_defines.prf \
+		C:/Qt/5.8/mingw53_32/mkspecs/features/win32/console.prf \
 		C:/Qt/5.8/mingw53_32/mkspecs/features/win32/opengl.prf \
+		C:/Qt/5.8/mingw53_32/mkspecs/features/uic.prf \
 		C:/Qt/5.8/mingw53_32/mkspecs/features/qmake_use.prf \
 		C:/Qt/5.8/mingw53_32/mkspecs/features/file_copies.prf \
-		C:/Qt/5.8/mingw53_32/mkspecs/features/win32/windows.prf \
 		C:/Qt/5.8/mingw53_32/mkspecs/features/testcase_targets.prf \
 		C:/Qt/5.8/mingw53_32/mkspecs/features/exceptions.prf \
 		C:/Qt/5.8/mingw53_32/mkspecs/features/yacc.prf \
 		C:/Qt/5.8/mingw53_32/mkspecs/features/lex.prf \
 		../QtStudyProject/QtStudyProject.pro \
-		C:/Qt/5.8/mingw53_32/lib/qtmaind.prl \
 		C:/Qt/5.8/mingw53_32/lib/Qt5Quick.prl \
+		C:/Qt/5.8/mingw53_32/lib/Qt5QuickTest.prl \
+		C:/Qt/5.8/mingw53_32/lib/Qt5Widgets.prl \
 		C:/Qt/5.8/mingw53_32/lib/Qt5Gui.prl \
 		C:/Qt/5.8/mingw53_32/lib/Qt5Qml.prl \
 		C:/Qt/5.8/mingw53_32/lib/Qt5Network.prl \
+		C:/Qt/5.8/mingw53_32/lib/Qt5Test.prl \
 		C:/Qt/5.8/mingw53_32/lib/Qt5Core.prl
 	$(QMAKE) -o Makefile ..\QtStudyProject\QtStudyProject.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
 C:/Qt/5.8/mingw53_32/mkspecs/features/spec_pre.prf:
@@ -363,6 +371,7 @@ C:/Qt/5.8/mingw53_32/mkspecs/features/qt_functions.prf:
 C:/Qt/5.8/mingw53_32/mkspecs/features/qt_config.prf:
 C:/Qt/5.8/mingw53_32/mkspecs/win32-g++/qmake.conf:
 C:/Qt/5.8/mingw53_32/mkspecs/features/spec_post.prf:
+.qmake.stash:
 C:/Qt/5.8/mingw53_32/mkspecs/features/exclusive_builds.prf:
 C:/Qt/5.8/mingw53_32/mkspecs/features/toolchain.prf:
 C:/Qt/5.8/mingw53_32/mkspecs/features/default_pre.prf:
@@ -370,6 +379,9 @@ C:/Qt/5.8/mingw53_32/mkspecs/features/win32/default_pre.prf:
 C:/Qt/5.8/mingw53_32/mkspecs/features/resolve_config.prf:
 C:/Qt/5.8/mingw53_32/mkspecs/features/exclusive_builds_post.prf:
 C:/Qt/5.8/mingw53_32/mkspecs/features/default_post.prf:
+C:/Qt/5.8/mingw53_32/mkspecs/features/qmltestcase.prf:
+C:/Qt/5.8/mingw53_32/mkspecs/features/resolve_target.prf:
+C:/Qt/5.8/mingw53_32/mkspecs/features/testcase.prf:
 C:/Qt/5.8/mingw53_32/mkspecs/features/qml_debug.prf:
 C:/Qt/5.8/mingw53_32/mkspecs/features/win32/rtti.prf:
 C:/Qt/5.8/mingw53_32/mkspecs/features/precompile_header.prf:
@@ -377,20 +389,24 @@ C:/Qt/5.8/mingw53_32/mkspecs/features/warn_on.prf:
 C:/Qt/5.8/mingw53_32/mkspecs/features/qt.prf:
 C:/Qt/5.8/mingw53_32/mkspecs/features/resources.prf:
 C:/Qt/5.8/mingw53_32/mkspecs/features/moc.prf:
+C:/Qt/5.8/mingw53_32/mkspecs/features/testlib_defines.prf:
+C:/Qt/5.8/mingw53_32/mkspecs/features/win32/console.prf:
 C:/Qt/5.8/mingw53_32/mkspecs/features/win32/opengl.prf:
+C:/Qt/5.8/mingw53_32/mkspecs/features/uic.prf:
 C:/Qt/5.8/mingw53_32/mkspecs/features/qmake_use.prf:
 C:/Qt/5.8/mingw53_32/mkspecs/features/file_copies.prf:
-C:/Qt/5.8/mingw53_32/mkspecs/features/win32/windows.prf:
 C:/Qt/5.8/mingw53_32/mkspecs/features/testcase_targets.prf:
 C:/Qt/5.8/mingw53_32/mkspecs/features/exceptions.prf:
 C:/Qt/5.8/mingw53_32/mkspecs/features/yacc.prf:
 C:/Qt/5.8/mingw53_32/mkspecs/features/lex.prf:
 ../QtStudyProject/QtStudyProject.pro:
-C:/Qt/5.8/mingw53_32/lib/qtmaind.prl:
 C:/Qt/5.8/mingw53_32/lib/Qt5Quick.prl:
+C:/Qt/5.8/mingw53_32/lib/Qt5QuickTest.prl:
+C:/Qt/5.8/mingw53_32/lib/Qt5Widgets.prl:
 C:/Qt/5.8/mingw53_32/lib/Qt5Gui.prl:
 C:/Qt/5.8/mingw53_32/lib/Qt5Qml.prl:
 C:/Qt/5.8/mingw53_32/lib/Qt5Network.prl:
+C:/Qt/5.8/mingw53_32/lib/Qt5Test.prl:
 C:/Qt/5.8/mingw53_32/lib/Qt5Core.prl:
 qmake: FORCE
 	@$(QMAKE) -o Makefile ..\QtStudyProject\QtStudyProject.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
@@ -402,7 +418,15 @@ all: debug-all release-all  FORCE
 clean: debug-clean release-clean  FORCE
 distclean: debug-distclean release-distclean  FORCE
 	-$(DEL_FILE) Makefile
-	-$(DEL_FILE) .qmake.stash
+	-$(DEL_FILE) C:\Users\Roman\Desktop\Programming\qt\build-QtStudyProject-Desktop_Qt_5_8_0_MinGW_32bit-Debug\target_wrapper.bat .qmake.stash
+
+debug-check:
+	$(MAKE) -f $(MAKEFILE).Debug check
+release-check:
+	$(MAKE) -f $(MAKEFILE).Release check
+check_all: debug-check release-check
+
+check: debug-check
 
 debug-mocclean:
 	$(MAKE) -f $(MAKEFILE).Debug mocclean
@@ -415,8 +439,6 @@ debug-mocables:
 release-mocables:
 	$(MAKE) -f $(MAKEFILE).Release mocables
 mocables: debug-mocables release-mocables
-
-check: first
 
 benchmark: first
 FORCE:

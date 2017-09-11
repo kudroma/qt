@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>particle1.bmp</file>
+        <file>particle2.bmp</file>
+        <file>particle3.bmp</file>
+    </qresource>
+</RCC>

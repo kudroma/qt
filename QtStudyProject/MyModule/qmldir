@@ -1,0 +1,10 @@
+module MyModule
+
+BlackRectangle 1.0 BlackRectangle.qml
+RedRectangle 1.0 RedRectangle.qml
+RedRectangle 1.2 RedRectangle12.qml
+GreenRectangle 1.0 GreenRectangle.qml
+ColorsList 1.0 ColorsList.js
+plugin MyPlugin
+classname PluginType
+typeinfo mymodule.qmltypes
